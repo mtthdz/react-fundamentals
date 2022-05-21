@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import { decrement, increment } from '../store/actions/counterActions';
 
-const Counter = () => {
+const ReduxPage = () => {
 	const counter = useSelector((state) => state.counterReducer.counter);
   const dispatch = useDispatch();
 
@@ -15,4 +15,4 @@ const Counter = () => {
 	)
 }
 
-export default Counter;
+export default ReduxPage;
