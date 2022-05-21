@@ -9,5 +9,5 @@ Runs the app in the development mode on localhost:3000.
 $ npm start
 
 Launches the test runner in the interactive watch mode.
-$npm test
+$ npm test
 ```
