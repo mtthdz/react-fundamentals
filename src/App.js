@@ -1,23 +1,14 @@
 import React from "react";
-import { 
-  Link,
-  Routes,
-  Route
-} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import StylePage from './pages/StylePage'
 import ComponentPage from './pages/ComponentPage';
 import ReduxPage from './pages/ReduxPage';
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <li><Link to="/">Styles</Link></li>
-          <li><Link to="/components">Components</Link></li>
-          <li><Link to="/redux">Redux</Link></li>
-        </ul>
-      </nav>
+      <Nav />
 
       <Routes>
         <Route path="/" element={ <StylePage /> } /> 
