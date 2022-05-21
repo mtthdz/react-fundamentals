@@ -5,6 +5,9 @@ This project illustrates the fundamentals of react development. It also includes
 ### Available Scripts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ```console
+Installs dependencies
+$ npm install
+
 Runs the app in the development mode on localhost:3000.
 $ npm start
 
