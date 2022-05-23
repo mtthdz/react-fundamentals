@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
+import ClassCard from '../components/ClassCard';
+import FunctionCard from '../components/FunctionCard';
 
 const ComponentPage = () => {
-    return(
-        <div>
-            <p>Components</p>
-        </div>
-    )
+	return (
+		<>
+			<ClassCard />
+			<FunctionCard />
+		</>
+	)
 }
 
 export default ComponentPage;
