@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 /**
  * hooks are what we use to manage a functional component's state
